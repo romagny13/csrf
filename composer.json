@@ -1,0 +1,25 @@
+{
+    "name": "romagny13/csrf",
+    "type": "library",
+    "description": "MicroPHP Csrf Protection library",
+    "keywords": ["micro","microphp","csrf"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jerome Romagny",
+            "email": "romagny13@yahoo.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MicroPHP\\Csrf\\": "src"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "scripts":{
+        "test": "phpunit -c ."
+    }
+}
